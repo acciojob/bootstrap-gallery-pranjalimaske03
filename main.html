@@ -8,91 +8,72 @@
 </head>
 
 <body>
-    <h2 class="text-center">Cards Gallery</h2>
-	<div class="my-category scrollable_div">
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg">
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-		<div class="list">
-		<div class="card my-card shadow ">
-			<img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg"><br>
-			<div class="card-body">
-			<h6 class="text-center">Lorem Ipsum</h6>
-			<p class="card-text text-center ">You are tasked with creating a compact gallery using Bootstrap. The gallery should have the following characteristics</p>
-			</div>
-		</div>
-	   </div>
-	</div>
+   <h2 class="text-center">Cards Gallery</h2>
 
+	<div class="container">
+		<div class="row">
+            <div class="column d-flex justify-content-between">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+
+			
+		</div>
+		<div class="row mt-4">
+            <div class="column d-flex justify-content-between">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card my-card shadow">
+					<img class="card-img-top" src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				     <div class="card-body">
+						 <h6 class="text-center">Lorem Ipsum</h6>
+						 <p class="text-center">The text inside the headings and paragraphs must be center-aligned. Cards should have a border radius.</p>
+					 </div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
 
 	
 	<!-- the entire body must be written by student -->

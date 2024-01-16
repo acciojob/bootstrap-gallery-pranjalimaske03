@@ -1,18 +1,21 @@
-/*  your css code here. If applicable */
-.list{
-    text-wrap: nowrap;
-    overflow-x: scroll;
-    width:100%;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 33.33%;
+  padding: 0 4px;
+}
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
-::-webkit-scrollbar{
-    display: none;
+img.hover-shadow {
+  transition: 0.3s;
 }
-.my-card{
-    width:180px;
-    margin-right:20px;
-    display: inline-block ;
-}
-.my-card>img{
-    margin:auto;
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
